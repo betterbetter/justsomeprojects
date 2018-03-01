@@ -7,6 +7,8 @@ using namespace Windows::Foundation;
 using namespace Windows::System::Threading;
 using namespace Concurrency;
 
+int test = 1;
+
 // 응용 프로그램이 로드되면 응용 프로그램 자산을 로드하고 초기화합니다.
 TestAppMain::TestAppMain(const std::shared_ptr<DX::DeviceResources>& deviceResources) :
 	m_deviceResources(deviceResources)
